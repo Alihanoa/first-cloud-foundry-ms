@@ -1,0 +1,8 @@
+---
+applications:
+  - name: testapplicationjar
+    memory: 2048M
+    instances: 1
+    health-check-type: http
+    health-check-http-endpoint: /health
+    random-route: true
