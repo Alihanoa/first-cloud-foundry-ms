@@ -1,0 +1,10 @@
+---
+applications:
+  - name: testapplicationjar
+    memory: 800M
+    path: /target/test-0.0.1-SNAPSHOT.jar
+    instances: 1
+    random-route: true
+
+    services:
+      - mydatabase
